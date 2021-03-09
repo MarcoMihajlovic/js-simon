@@ -15,7 +15,7 @@ var contatore = 0;
     alert("Ricordati questi numeri " + array);
     console.log("debug");
     
-    setTimeout(myFunction, 1000);
+    setTimeout(myFunction, 30000);
 
     /* controllo = false;
     while (!controllo) {
