@@ -5,7 +5,7 @@ var controllo = false;
 var risposta = true;
 var contatore = 0;
 
-/* while (risposta){ */
+/* while (!risposta){ */
     array = [];
 
     for (var i = 0; i < 5; i++) {
@@ -13,6 +13,7 @@ var contatore = 0;
     }
     
     alert("Ricordati questi numeri " + array);
+    console.log("debug");
     
     setTimeout(myFunction, 1000);
 
@@ -31,8 +32,8 @@ var contatore = 0;
 
     if (domanda == "n") {
         risposta = false;
-    }
- */
+    } */
+
 /* } */
 
 function setArray() {
@@ -91,7 +92,8 @@ function myFunction() {
 
     if (domanda == "y") {
         location.reload();
+    } else {
+        alert("Grazie per aver giocato");
     }
-
 
 }
